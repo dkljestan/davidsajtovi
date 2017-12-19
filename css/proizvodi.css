@@ -1,0 +1,28 @@
+.galerija{
+	width: 100%;
+	
+}
+.slika{
+	transition: all .5s ease;
+	float: left;
+	margin: 10px;
+}
+.slika:hover{
+	transform: scale(1.3);
+	
+}
+.opis{
+	text-align: center;
+}
+.slika .opis{
+	border: 1px solid black;
+}
+footer{
+	background-color: black;
+	color: white;
+	 clear: both;
+}
+article{
+	text-align: center;
+	padding: 10px;
+}

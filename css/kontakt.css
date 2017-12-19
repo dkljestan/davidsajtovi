@@ -1,0 +1,65 @@
+p{
+	font-size: 50px;
+	text-align: center;
+}
+.form{
+	text-align: center;
+	width: 100%;
+}
+form{
+	max-width: 300px;
+	margin: 0 auto;
+}
+input[type="text"]{
+	text-align: center;
+	margin: 5px;
+	display: block;
+	width: 300px;
+	padding: 10px 0;
+	border-radius: 11px;
+}
+input[type="text"]:focus{
+	text-align: center;
+	background-color: lightblue;
+	font-weight: bold;
+}
+textarea{
+	text-align: center;
+	display: block;
+	padding: 10px 0;
+	width: 100%;
+	height: 150px;
+	border-radius: 15px;
+}
+textarea:focus{
+	background: lightblue;
+	font-weight: bold;
+}
+button{
+	margin: 5px;
+	width: 100%;
+	height: 60px;
+	background-color: black;
+	opacity: 0.4;
+	border-radius: 11px;
+	color: white;
+	border: none;
+}
+button:hover{
+	opacity: 0.9;
+}
+.inf{
+	font-size: 20px;
+	text-align: left;
+	animation-duration: 3s;
+}
+footer{
+	background-color: black;
+	color: white;
+}
+article{
+	text-align: center;
+	padding: 10px;
+}
+
+
